@@ -32,11 +32,13 @@ function generateRandomNumber(num) {
     }
   }
   
+  console.log(personalWisdom)
   function formatWisdom(wisdom) {
     // Add some ASCII here?
     // Add in more symbols to the array? like emojies or what not?
+    const thumbsUp = '👍'
     const formatted = personalWisdom.join('\n')
-    console.log(formatted)
+    console.log(formatted + thumbsUp) 
   }
   
   formatWisdom(personalWisdom);
