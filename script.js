@@ -41,3 +41,5 @@ function generateRandomNumber(num) {
   }
   
   formatWisdom(personalWisdom);
+
+  //making test branch
